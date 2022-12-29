@@ -1,0 +1,20 @@
+{
+  "name": "kingsite-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bdashore3/kingsite-blog",
+  "author": "kingbri <bdashore3@proton.me>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node validate.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "remark": "^14.0.2",
+    "remark-github-images": "https://github.com/bdashore3/remark-github-images",
+    "typescript": "^4.9.4",
+    "vfile": "^5.3.6"
+  }
+}
