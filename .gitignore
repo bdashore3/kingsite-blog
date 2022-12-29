@@ -1,1 +1,5 @@
 .DS_Store
+actions-scripts/node_modules
+actions-scripts/*.js
+dist
+tsconfig.tsbuildinfo
